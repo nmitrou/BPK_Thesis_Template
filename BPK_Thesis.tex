@@ -1,0 +1,74 @@
+\documentclass[11pt]{report}
+\usepackage{pdfpages}
+\usepackage{makeidx} 
+\usepackage{graphicx}
+\usepackage{csthesis}
+\usepackage[titletoc]{appendix}
+\usepackage[square,numbers,sectionbib]{natbib}
+\usepackage{chapterbib}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{subscript}
+\usepackage{amsmath}
+\usepackage{float}
+%\usepackage{tabu}
+
+
+
+\begin{document}
+
+\figurespagetrue
+\tablespagetrue
+\dedicationpagetrue
+\quotationpagetrue
+
+%\addcontentsline{toc}{chapter}{}
+
+%Title page and Approval
+\include{Chapters/TitleApproval}
+
+% Partial copyright release
+\newpage 			
+\addcontentsline{toc}{chapter}{Partial Copyright License}
+\mbox{}
+\makeatletter
+\AddToShipoutPictureBG*{
+            \setlength{\@tempdimc}{.06\paperheight}
+            \setlength{\unitlength}{1pt}
+           \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){
+	\includegraphics{PCL_Declaration.pdf}
+	} 
+} 
+
+%Abstract
+\include{Chapters/Abstract}
+
+%Acknowledgements
+\include{Chapters/Acknowledgements}
+
+%Dedication
+\include{Chapters/DedicationQuotation}
+
+%Preface
+\include{Chapters/Preface}
+
+%Generate Table of contents and lists of figures
+\lists
+
+\beforetext
+
+% Chapter 1: Introduction
+\include{Chapters/Chapter01}
+
+% Chapter 2: 
+%\include{Chapters/Chapter02}
+
+% Chapter 3: 
+%\include{Chapters/Chapter03}
+
+% Chapter 4:
+%\include{Chapters/Chapter04}
+
+% Chapter 5: Conclusions and Future work
+\include{Chapters/Chapter05}
+
+\end{document}

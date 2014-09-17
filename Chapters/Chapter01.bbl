@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Scully et~al.(2013)Scully, Mitrou, Braam, Cupples, and Chon]{Scully14}
+Christopher Scully, Nicholas Mitrou, Branko Braam, William Cupples, and
+  Ki~Chon.
+\newblock Segmentation of renal perfusion signals from laser speckle imaging
+  into clusters with phase synchronized dynamics.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, 61:\penalty0
+  1989--1997, 2013.
+
+\end{thebibliography}

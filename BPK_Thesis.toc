@@ -1,0 +1,31 @@
+\gdef \the@ipfilectr {@-1}
+\contentsline {chapter}{Approval}{ii}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{Partial Copyright License}{iii}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{Abstract}{iv}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{Acknowledgements}{v}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{Dedication}{vi}
+\contentsline {chapter}{Quotation}{vii}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{Preface}{viii}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{Contents}{ix}
+\contentsline {chapter}{List of Tables}{x}
+\contentsline {chapter}{List of Figures}{xi}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {1}The full title of the chapter goes here}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Methods}{1}
+\contentsline {section}{\numberline {1.3}Results}{1}
+\contentsline {section}{\numberline {1.4}Discussion}{3}
+\contentsline {section}{\numberline {1.5}Conclusion}{3}
+\contentsline {section}{\numberline {1.6}References}{3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\gdef \the@ipfilectr {}
